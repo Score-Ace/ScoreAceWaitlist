@@ -71,7 +71,7 @@ export function HeroSection() {
           <div className="glass-strong rounded-2xl p-8 shadow-2xl hover:shadow-green-500/10 transition-all duration-500 group">
             <div className="relative aspect-[4/3] rounded-xl overflow-hidden">
               <Image
-                src="/scoreacescan.jpg"
+                src="/ScoreAceScan.jpg"
                 alt="Teacher using Score Ace AI grading system"
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-500"
