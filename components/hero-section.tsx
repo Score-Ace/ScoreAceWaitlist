@@ -42,7 +42,7 @@ export function HeroSection() {
           </h1>
 
           <p className="text-lg sm:text-xl text-white/70 max-w-2xl leading-relaxed animate-fade-in-up animation-delay-200">
-            Score Ace uses AI to help teachers grade handwritten essays and theory exams instantly—with your marking
+            Score Ace uses AI to help teachers grade theory exams instantly—with your marking
             guide, your standards, and zero compromise on fairness.
           </p>
 
