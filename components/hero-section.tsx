@@ -28,7 +28,6 @@ export function HeroSection() {
         {/* Left: Text content */}
         <div className="space-y-8 animate-fade-in-up">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass-green animate-pulse-soft">
-            <Sparkles className="w-4 h-4 text-green-400" />
             <span className="text-sm text-green-300 font-medium">Launching in 2026</span>
           </div>
 
@@ -42,7 +41,7 @@ export function HeroSection() {
           </h1>
 
           <p className="text-lg sm:text-xl text-white/70 max-w-2xl leading-relaxed animate-fade-in-up animation-delay-200">
-            Score Ace uses AI to help teachers grade theory exams instantly—with your marking
+            Score Ace uses AI to help teachers grade handwritten essays and theory exams instantly—with your marking
             guide, your standards, and zero compromise on fairness.
           </p>
 
@@ -79,19 +78,6 @@ export function HeroSection() {
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
               <div className="absolute bottom-4 left-4 right-4">
                 <p className="text-white/90 text-sm font-medium">AI-powered grading in action</p>
-              </div>
-            </div>
-          </div>
-
-          {/* Floating stats card with animation */}
-          <div className="absolute -bottom-6 -left-6 glass-green rounded-xl p-4 shadow-xl animate-float">
-            <div className="flex items-center gap-3">
-              <div className="w-12 h-12 rounded-full bg-green-500/20 flex items-center justify-center">
-                <Sparkles className="w-6 h-6 text-green-400" />
-              </div>
-              <div>
-                <p className="text-2xl font-bold text-white">95%</p>
-                <p className="text-xs text-white/60">Time saved</p>
               </div>
             </div>
           </div>
